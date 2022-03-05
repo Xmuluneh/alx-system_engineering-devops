@@ -1,2 +1,2 @@
 #!/bin/bash
-whoami
+echo "id-un">>1-who_am_i
