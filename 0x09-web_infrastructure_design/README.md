@@ -48,8 +48,9 @@
 ====================================================================================
 # AUTHORS
 <h4> by:
-Birhanu Gebisa      & <a href="https://github.com/BirhanuGebisa"> Birhanu Gebisa </a>/n
-Muluneh Gebremariam & <a href="https://github.com/Xmuluneh"> Muluneh Gebremariam </a>/n
-Yohanes Gutema      & <a href="https://github.com/Yohanes-GR"> Yohanes Gutema  </a>
- </h4>
+ <ul>
+<li>Birhanu Gebisa      & <a href="https://github.com/BirhanuGebisa"> Birhanu Gebisa </a></li>
+<li>Muluneh Gebremariam & <a href="https://github.com/Xmuluneh"> Muluneh Gebremariam </a></li>
+<li>Yohanes Gutema      & <a href="https://github.com/Yohanes-GR"> Yohanes Gutema  </a></li>
+ </ul></h4>
 
