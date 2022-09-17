@@ -9,5 +9,4 @@
 <li>All your files should end with a new line</li>
 <li>Your Puppet manifests must pass puppet-lint version 2.1.1 without any errors</li>
 <li>Your Puppet manifests files must end with the extension <d style="color:red">.pp </p></li>
-
 </ul>
