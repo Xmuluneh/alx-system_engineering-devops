@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# connnect to the serverusinf SSH
+ssh -i ~/.ssh/school ubuntu@3.230.169.183
+
+
