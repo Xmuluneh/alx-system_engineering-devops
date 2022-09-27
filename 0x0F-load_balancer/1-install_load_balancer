@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+# Install and configure HAproxy on your server
+
+# install HAproxy
+apt-get -y update
+apt-get -y install haproxy
+
+# configure the frontend
+front_end='\\nfrontend first\n\tbind *:80\n\tdefault_backend allservers'
+sed -i "34a $front_end" /etc/haproxy/haproxy.cfg
+
+# configure the backend
+back_end='\\nbackend allservers\n\tserver 23038-web-01 3.230.169.183\n\tserver 23038-web-02  35.173.47.137'
+sed -i "38a $back_end" /etc/haproxy/haproxy.cfg
+/etc/init.d/haproxy restart
