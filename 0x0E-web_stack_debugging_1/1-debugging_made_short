@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
-# Command to make an nginx server listen on port 80, shorter version
+# Ubuntu container's Nginx installation
+apt -y install nginx
 sed -i 's/8080/80/g' /etc/nginx/sites-enabled/default
-pkill -1 nginx
+nginx -s reload
