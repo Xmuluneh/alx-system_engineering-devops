@@ -1,15 +1,1 @@
-; <<>> DiG 9.16.1-Ubuntu <<>> muluneh.tech
-;; global options: +cmd
-;; Got answer:
-;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 30815
-;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
-
-;; OPT PSEUDOSECTION:
-; EDNS: version: 0, flags:; udp: 65494
-;; QUESTION SECTION:
-;muluneh.tech.			IN	A
-
-;; Query time: 3 msec
-;; SERVER: 127.0.0.53#53(127.0.0.53)
-;; WHEN: Thu Oct 13 14:14:46 UTC 2022
-;; MSG SIZE  rcvd: 41
+muluneh.tech
